@@ -6,6 +6,16 @@ Vite + React + TypeScript + Tailwind dashboard for FamilyOS: auth, family switch
 
 - Node.js **18.18+** or **20+**
 
+## Environment (tracked template)
+
+```bash
+cp .env.example .env.local
+```
+
+Edit `.env.local` if you need `VITE_API_BASE_URL` for production builds. **Do not commit** `.env` or `.env.local` with real secrets.
+
+For CI, use **GitHub → Settings → Secrets and variables → Actions** — not committed files.
+
 ## Setup
 
 ```bash

@@ -9,6 +9,7 @@ build/
 
 # Env (keep .env.example tracked)
 .env
+!.env.example
 .env.local
 .env.*.local
 .env.development.local
